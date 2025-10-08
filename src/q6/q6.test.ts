@@ -5,7 +5,7 @@ test('testa cálculo da área de Retângulo e Círculo', () => {
   expect(ret.calcular()).toBe(50); // 5 * 10 = 50
 
   const circ = new Circulo(3);
-  expect(circ.calcular()).toBeCloseTo(28.274, 3); // π * 3² 
+  expect(circ.calcular()).toBeCloseTo(28.274, 3); // pi * 3²
 
   // testar com atributos diferentes
   ret.largura = 7;
